@@ -1,0 +1,63 @@
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#bg-contactos{
+    margin-top: 300px;
+    position:relative;
+    top: -170px;
+
+} 
+
+ #seccion-contacto{
+    background-color: #19da9a;
+    min-height:500px;
+    position:relative;
+}
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+
+
+/*seccion de redes sociales */
+
+.seccion{
+    display: flex;
+    flex-direction: column;
+    background-color: #19da9a;
+   
+
+    &__contactos{
+
+        padding: 30px;
+        font-size: 20px;
+        display: flex;
+        justify-content:space-around ;
+      
+    }
+
+    &__contenido{
+        text-align: center;
+    }
+
+    &__contenido img {
+        width: 100px;
+        padding: 20px ;
+    }
+
+
+}
+
+

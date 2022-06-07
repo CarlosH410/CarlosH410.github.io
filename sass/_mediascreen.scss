@@ -1,0 +1,78 @@
+@media screen and (max-width :800px) {
+    .seguridad{
+       
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px 200px 200px;
+
+        &__secciones {
+            border: 2px solid rgb(255, 255, 255);
+        }
+        &__secciones img{
+            width: 50px;
+
+        }
+    }
+
+    /*contacto   */
+
+    #bg-contactos{
+        margin-top: 200px;
+        top: -75px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    /*METODOS DE PAGO*/
+
+    .pagos{
+        flex-direction: column;
+
+        &__imagenes {
+            width: 250px;
+        }
+    
+    
+    }
+
+    /*seguriad */
+
+        
+    .seguridad {
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px 200px ;
+
+
+        &__secciones {
+            border: 2px solid rgb(245, 243, 240);
+        }
+        &__secciones img{
+            width: 40px;
+        }
+    
+    
+    }
+
+    /*contacto   */
+
+    #bg-contactos{
+        margin-top: 200px;
+        top: -70px;
+    }
+
+    /*REDES */
+
+    .seccion__contactos {
+        align-items: flex-end;
+
+    }
+    
+    .cartas {
+        &__card {
+            height: 630px;
+        }
+    }
+}

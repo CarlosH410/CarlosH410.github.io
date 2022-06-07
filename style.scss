@@ -1,0 +1,42 @@
+@import "./sass/global";
+
+@import "./sass/header";
+@import "./sass/main";
+@import "./sass/footer";
+@import "./sass/productos";
+
+@import "./sass/contacto";
+@import "./sass/politicadevo";
+
+
+
+/*media screem*/
+@import "./sass/mediascreen";
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif; 
+}
+ 
+
+
+
+
+
+
+
+

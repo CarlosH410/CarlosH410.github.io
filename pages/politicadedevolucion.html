@@ -1,78 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backstreet</title>
+    <!-- ----------KEYWORDS---------- -->
+    <meta name="keyword" content="COMO DE VOLVER ,INFORMACION ,METODOS,SEGURIDAD">
 
-    <link rel="stylesheet" href="/boostrap/css/bootstrap.min.css">
-    <script src="/boostrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ----------DESCRIPCION---------- -->
+    <meta name="description" content="conoce como tenes que devolver nuestros produsctos de forma
+    rapida y segura">
 
-    <link rel="stylesheet" href="/estilos/estilo.css">
-</head>
-<body>
-    <div class="container">
-        
-        <header class="mama">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Backs Treet</a>
-                    <button class="navbar-toggler" type="button" 
-                      data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                   </button>
-                    <div class="collapse navbar-collapse" id="navbar">
-                        
-                        <ul class="navbar-nav ms-auto">
+    <!-- ----------TITULO DE LA PAGINA---------- -->
+    <title>BackStreet  | devolucion</title>
+    
+    <!-- ----------FAVICON---------- -->
+    <link rel="shortcut icon" href="/imagenes/Logopit_1648137373416.png" type="image/x-icon">
 
-                            <li class="nav-item">
-                                
-                               <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
 
-                               <a class="nav-link" href="/pages/contacto.html">contactos</a>
-                            
-                            </li>
-
-                            <li class="nav-item">
-                                
-                                <a class="nav-link active" aria-current="page" href="/pages/politicadedevolucion.html">politica de devolucion</a>
-                             </li>
-
-                           <li class="nav-item dropdown">
-                             <a class="nav-link dropdown-toggle" href="/pages/productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                             Productos
-                             </a>
-                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><a class="dropdown-item" href="#">Remeras</a></li>
-                                 <li><a class="dropdown-item" href="#">Busos</a></li>
-                                 <li><hr class="dropdown-divider"></li>
-                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                                
-                        </ul>
-
-                        
-                    </div>
-                </div>
-            </nav>
-
-            
-            
-        </header>
-
+    <!-- ----------BOOTSTRAP---------- -->
+    <link rel="stylesheet" href="../boostrap/css/bootstrap.min.css">
+    <Script src="../boostrap/js/bootstrap.bundle.min.js"></Script>
 
 
     
 
-    <section >
-        <h1 class="titulo3" > Politica de devoluciones</h1>
+    <link rel="stylesheet" href="../css/style.css" >
+    
 
-        <div class="pol1">
-            <p class="pol11">
+</head>
+<body> 
+    <!-- barra de navegacion-->
+
+    <header >
+        
+        <nav class="navbar navbar-expand-lg navbar-light p-8 "  id="menu">
+
+            <section class="container-fluid bg-dark d-flex justify-content-center">
+                <p class="text-light mb-0 p-8 fs-9">Contactanos 1-(305)-725-1000</p>
+    
+            </section>
+
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <span class="fw-bold">BackStreet.</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/politicadedevolucion.html">politica de devolucion</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                
+            </div>
+        </nav>
+   
+   
+    </header>
+
+    
+    
+    
+    
+    <section class="politica" >
+        <h1 class="politica__titulo" > Politica de devoluciones</h1>
+
+        <div class="politica__parrafo">
+            <p class="politica__pol11">
                 Si no estás conforme con nuestro producto, puedes realizar un cambio del mismo de alguna de las siguientes formas:
             </p>
 
@@ -86,7 +97,7 @@
                 
             </ol>
             <p class="pol11">
-                Las devoluciones sólo pueden ser realizadas durante los 30&nbsp;días siguientes a la compra.
+                Las devoluciones sólo pueden ser realizadas durante los 30 días siguientes a la compra.
 
             </p>
 
@@ -96,36 +107,85 @@
 
     </section>
 
-    <section class="contacto1">
-        <form action="">
-            <div>
-                <h2>Contacto</h2>
-            </div>
-
-            <input type="text" name="Nombre" placeholder="Nombre..">
-            <input type="text" name="Correo" placeholder="Correo..">
-            <input type="text" name="telefono" placeholder="telefono..">
-            <textarea name="mensaje" placeholder="Escriba aqui su mensaje.."></textarea>
-
-            <input type="button" value="ENVIAR" id="boton">
-        </form>
-    </section>
-    
-
-    
-
-    
-    
-    <footer class="footer">
-        <div class="footer1">
-            <p class="fut1">Derechos Reservados - <a href="#">Backs treet</a></p>
-
+     <!-- SECCION CONTACTOS-->
+            
+     <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+        <div  id="bg-contactos">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#19da9a" fill-opacity="1" d="M0,32L120,69.3C240,107,480,
+                181,720,186.7C960,192,1200,128,1320,96L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+                        
         </div>
-        
-        
-        
-        <img src="/imagenes/Logopit_1648137373416.png" alt="logotipo backs" width="50" height="50">
-    </footer>  
+                    
+        <!-- CONTENEDOR DEL FORMULARIO     -->
+
+        <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+            <div class="text-center mb-4" id="titulo-formulario">
+                <div><img src="../imagenes/support.png" alt="imagen-formulario" class="img-fluid ps-5"></div>
+                <h2>Contactanos</h2>
+                <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
+            </div>
+                        
+                        
+                        
+            <form   method="POST" data-netlify="true" action="#">     
+                <div class= "mb-3">           
+                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+                </div>
+                            
+                            
+                <div class="mb-3">            
+                    <input type="input" class="form-control" id="name" name="name" placeholder="ingrese su nombre...">
+                </div>
+                            
+                            
+                <div class="mb-3">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="ingrese su teléfono...">
+                </div>
+                            
+                <div class="mb-3">       
+                    <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+                </div>
+                            
+                <div class="mb-3">
+                    <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+                    </div>
+            </form>
+                        
+        </div>
+                    
+    </section>
+                
+    <!--seccion final -->
+                
+    <section class="seccion">
+        <div class="seccion__contactos">
+                        
+                        
+            <div class="seccion__contenido">
+                
+                <a href="https://www.facebook.com/Backstreet-100979275573903/" target="_blank"><img src="/imagenes/facebook.png" alt="imagen-facebook"></a>
+                <a href="https://www.instagram.com/backstreet______/" target="_blank"><img src="/imagenes/instagram.png" alt="imagen-insstagram"></a>
+            </div>
+                        
+                        
+            <div class="seccion__contenido">
+                
+                <img src="/imagenes/whatsapp.png" alt="imagen-whatsapp">
+                <img src="/imagenes/gmail.png" alt="imagen-gmail">
+            </div>
+        </div>
+    </section>
+                
+                
+                
+                
+ <!--FOOTER -->
+    <section class="footer__final">
+        <p class="fs-7 px-3  pt-3">BacksTreet. &copy; Todos Los Derechos Reservados 2021</p>
+        <div></div>
+    </section>
+
 
 </body>
-</html>
+
+</html>    

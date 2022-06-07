@@ -1,0 +1,193 @@
+/*CARRUSEL  */
+
+.carousel{
+    
+    margin-top: 100px;
+    
+}
+
+
+.carousel-inner{
+    max-height: 40rem;
+}
+
+
+.carousel-item img{
+    object-fit: cover;
+}
+
+.baner img {
+    max-width: 100%;
+}
+
+
+
+.fw-bold {
+    position: relative;
+    left: 20px;
+    right: 20px;
+    top: -8px;
+}
+
+
+/*QUIENES SOMOS*/
+
+.quienes{
+    text-align: center;
+    padding: 200px 12px;
+
+    &__acento {
+    color: rgb(25, 218, 154) 
+    }
+
+}
+
+
+/*METODOS DE PAGO */
+
+.pagos {
+
+    width: 100%;
+    max-width: 1200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+    &__seccion {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    &__imagenes {
+            
+        width: 300px;
+    }
+
+}
+
+
+/*CARTAS */
+
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif ;
+}
+
+
+.cartas {
+    width: 100%;
+    max-width: 1200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+
+
+    &__card{
+        width: 430px;
+        height: 580px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 10px;
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+
+    &__card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    &__card img{
+        width: 430px;
+        height: 320px;
+        object-fit:cover;
+    }
+
+    &__card h4{
+        margin: 10px;
+        font-weight: 600;
+    }
+    
+    &__boton {
+        font-size: 1.25em;
+        font-weight: bold;
+        padding: 10px 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 2px solid rgba(0,0,0,0.3);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        color: white;
+        background-color: rgb(25,218,154)
+    }
+    
+    &__boton:hover{
+        background-color: rgb(32, 200, 144)
+    
+    }
+        
+
+
+}
+
+
+/*seguriad */
+
+.seguridad {
+    display: grid;
+    background-color: aquamarine;
+    color: #6a6a6a;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+    
+    margin-top: 20px;
+
+    &__secciones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+       /* padding: 6rem 2rem;*/
+        font-size: 18px;
+        transition: .5s;
+        grid-template-rows: 200px;
+    
+    }
+    
+    &__secciones:hover {
+
+        font-size: 26px;
+    
+        transition: .5s;
+    }
+
+    &__secciones img{
+        width: 88px;
+        
+    }
+
+    
+}
