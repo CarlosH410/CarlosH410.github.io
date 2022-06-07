@@ -73,6 +73,25 @@
     .cartas {
         &__card {
             height: 630px;
+
+            transition: none;
+
         }
+
+        &__card:hover{
+            transform: none;
+            box-shadow: none;
+        }
+    }
+
+
+    .galeria img {
+        transition: none;
+
+    }
+
+    .galeria img:hover{
+        transform: none;
+        box-shadow: none;
     }
 }
