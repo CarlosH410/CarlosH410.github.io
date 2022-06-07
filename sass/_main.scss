@@ -163,6 +163,7 @@
     grid-template-rows: 300px;
     
     margin-top: 20px;
+    
 
     &__secciones {
         display: flex;
@@ -189,5 +190,9 @@
         
     }
 
-    
+   
+}
+
+.seccion {
+    margin-top: 2px;
 }
