@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#product-container {
+  
+  width: 100%;
+  max-width: 1200px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+
+
+#art-cart-container .actions {
+
+ 
+  position: absolute;
+
+  left: 150px;
+  margin-top: 30px;
+  
+  text-align: center;
+  border-radius: 5px;
+
+  
+  
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+
+  padding: 30px;
+}
+
+
+
+#art-cart-container {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  border: solid 1px #ccc;
+  padding: 10px;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.item .nombre {
+  font-weight: bold;
+}
+.item .precio {
+  color: green;
+  font-weight: bold;
+}
+.item div {
+  padding: 5px 0;
+}
+
+.total {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  background-color: rgb(14, 235, 187);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: rgb(9, 210, 167);
+}
+
+img{
+  
+  object-fit: cover;
+
+  width: 430px;
+  height: 320px;
+    
+}
+.add {
+  border-radius: 5px;
+}
+
+.card{
+  width: 300px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px;
+  
+  font-size: 16px;
+  font-weight: 300;
+}
+.bClose {
+  border-radius: 5px;
+}
+#bPurchase{
+  border-radius: 5px;
+}
+.addOne{
+  border-radius: 5px;
+}
+.removeOne{
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 500px){
+
+  #art-cart-container{
+    width: 300px;
+  }
+
+}
